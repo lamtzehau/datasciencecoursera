@@ -14,6 +14,7 @@ lines(s$Time, s$Global_active_power)
 
 with(s,plot(Time, Voltage, pch=".",col="black", ylab="Voltage",xlab="datetime"))
 with(s,lines(Time,Voltage,col="black"))
+# plot(s$Time, s$Voltage, type="l", ylab="Voltage", xlab="datetime"), just a suggestion; combine 2 lines into one
 
 
 
